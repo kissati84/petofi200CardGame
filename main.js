@@ -1,12 +1,12 @@
 const cardObjectDefinitions = [
-  { id: 1, imagePath: "/img/card-KingHearts.png" },
-  { id: 2, imagePath: "/img/card-JackClubs.png" },
-  { id: 3, imagePath: "/img/card-QueenDiamonds.png" },
-  { id: 4, imagePath: "/img/card-AceSpades.png" }
+  { id: 1, imagePath: "./img/card-KingHearts.png" },
+  { id: 2, imagePath: "./img/card-JackClubs.png" },
+  { id: 3, imagePath: "./img/card-QueenDiamonds.png" },
+  { id: 4, imagePath: "./img/card-AceSpades.png" }
 ];
 const aceId = 4;
 
-const cardBackImgPath = "/img/card-back-Blue.png";
+const cardBackImgPath = "./img/card-back-Blue.png";
 
 let cards = [];
 
